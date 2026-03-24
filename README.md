@@ -33,4 +33,15 @@
 - 完成后先验证再汇报
 
 ## 说明
-这是一个示例配置仓库，便于公开分享和复用。你可以在此基础上扩展更多 Craft Agent 配置文件。 
+这是一个示例配置仓库，便于公开分享和复用。你可以在此基础上扩展更多 Craft Agent 配置文件。
+
+## Included project skill
+仓库中还包含一个可复用的 project-level skill：
+
+- `.agents/skills/publish-craft-config/SKILL.md`
+- `.agents/skills/publish-craft-config/icon.svg`
+
+这个 skill 适合用于：
+- 将 Craft Agent 配置发布到 Git/GitHub
+- 在公开分享前先做脱敏处理
+- 按固定流程完成校验、commit、push 与远程验证
